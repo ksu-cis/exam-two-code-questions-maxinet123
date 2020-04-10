@@ -11,6 +11,10 @@
         <data:Cobbler/>
     </Window.DataContext>
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource= "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Peach_Cobbler.jpg/2560px-Peach_Cobbler.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
         <local:CustomizeCobblerControl/>
     </Grid>
+
 </Window>
